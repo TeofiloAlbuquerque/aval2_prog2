@@ -9,6 +9,6 @@ class Audiobook extends Media {
     super.duration,
     this.author,
   );
-
+  @override
   String get name => author;
 }

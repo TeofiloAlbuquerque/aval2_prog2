@@ -9,6 +9,6 @@ class Movie extends Media {
     super.duration,
     this.director,
   );
-
+  @override
   String get name => director;
 }

@@ -9,6 +9,6 @@ class Music extends Media {
     super.duration,
     this.artist,
   );
-
+  @override
   String get name => artist;
 }
